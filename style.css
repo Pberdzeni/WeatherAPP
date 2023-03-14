@@ -1,0 +1,71 @@
+body {
+	font-family: 'Oswald', sans-serif;
+  background-image: linear-gradient(
+    85.4deg,
+    rgba(102, 152, 255, 0.66) 29.8%,
+    rgba(115, 106, 255, 1) 98.3%
+  );
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+.input-group input {
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-weight: 600;
+  letter-spacing: 1.3px;
+}
+.input-group input:focus{
+	outline: 2px solid rgb(247, 113, 113);
+}
+#location {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  background-color: pink;
+}
+
+#submit-btn {
+  padding: 10px;
+  width: 30%;
+  border-radius: 3px;
+  border: 1px solid rgb(247, 113, 113);
+  background: linear-gradient(
+    106.5deg,
+    rgba(255, 215, 185, 0.91) 23%,
+    rgba(223, 159, 247, 0.8) 93%
+  );
+  color: rgb(36, 36, 76);
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+#submit-btn:hover {
+  background: linear-gradient(
+    106.5deg,
+    rgba(255, 215, 185, 1) 23%,
+    rgba(223, 159, 247, 1) 93%
+  );
+}
+#weather-info{
+	color: rgb(36, 36, 76);
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.6);
+	font-weight: 600;
+}
+#weather-info p{
+padding: 15px;
+}
